@@ -1,0 +1,9 @@
+#successicon{
+    height: 24px;
+}
+#successfullyaddedmsg{
+    position: fixed;
+    top: 2px;
+    left: 2px;
+    right: 2px;
+}
