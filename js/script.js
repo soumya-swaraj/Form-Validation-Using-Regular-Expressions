@@ -106,7 +106,7 @@ district.addEventListener("blur", () => {
 });
 
 pincode.addEventListener("blur", () => {
-    let regex = /^[0-9]{5}$/;
+    let regex = /^[0-9]{6}$/;
     let str = pincode.value;
     if (regex.test(str)) {
         pincode.classList.remove("is-invalid")
